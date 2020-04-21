@@ -1,0 +1,46 @@
+nav{
+   background-color: rgb(116, 116, 116);
+   text-align: center;
+}
+nav img{
+    height: 55px;
+    width: 205px;
+}
+nav div img{
+    height: 55px;
+    width: 55px;
+    margin:0px 10px;
+}
+nav div{
+    margin-left: 65%;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: rgb(119, 11, 35);
+    text-decoration: none;
+}
+@media(max-width: 1400px){
+    nav div{
+        margin-left: 45%;
+    }
+}
+@media(max-width:1000px){
+    nav{ 
+        text-align: center;
+    }
+    nav div{
+        margin-left: -45px;
+    }
+    nav div img{
+        visibility: hidden;
+    }
+    nav li:hover {         
+        
+        background-color: rgb(151, 151, 151);     
+    }
+    nav a:hover{
+        color:rgb(19, 19, 19);
+    }
+}
