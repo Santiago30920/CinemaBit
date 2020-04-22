@@ -44,3 +44,10 @@ nav a:hover{
         color:rgb(19, 19, 19);
     }
 }
+
+/* Css carousel */
+.carousel-item img{
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
