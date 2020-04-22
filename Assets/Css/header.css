@@ -9,7 +9,7 @@ nav img{
 nav div img{
     height: 55px;
     width: 55px;
-    margin:0px 10px;
+    margin:6px 10px;
 }
 nav div{
     margin-left: 65%;
@@ -21,9 +21,32 @@ nav a:hover{
     color: rgb(119, 11, 35);
     text-decoration: none;
 }
-@media(max-width: 1400px){
+.nav-item{
+    display: inline;
+}
+.boton{
+    background-color: transparent;
+    padding: 0px;
+}
+.dropdown-menu{
+    color: white;
+    background-color:  rgb(116, 116, 116);
+}
+.dropdown-menu a{
+    color: white;
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: rgb(19, 19, 19);
+}
+@media(max-width: 1500px){
     nav div{
         margin-left: 45%;
+    }
+}
+@media(max-width: 1200px){
+    nav div{
+        margin-left: 35%;
     }
 }
 @media(max-width:1000px){
@@ -42,6 +65,16 @@ nav a:hover{
     }
     nav a:hover{
         color:rgb(19, 19, 19);
+    }
+    .boton{
+        width: 100%;
+    }
+    .dropdown-menu{
+        width: 100%;
+    }
+    .dropdown-menu a{
+        text-align: center;
+        padding-left: 10%;
     }
 }
 
