@@ -1,0 +1,39 @@
+.imagenprincipal img{ 
+
+
+    width: 100%
+}
+
+
+.imagenprincipal {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+  
+}
+
+.texto {
+
+    position: absolute;
+    top: 10%;
+    left: 50%;
+   
+}
+
+.texto h3{
+
+font-weight: bold;
+color: white;
+
+}
+
+
+
+.texto p{
+
+    color: white;
+    
+    }
+
+
