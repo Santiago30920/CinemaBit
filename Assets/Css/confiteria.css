@@ -1,0 +1,103 @@
+.imagenprincipal img {
+    width: 105%
+}
+
+.imagenprincipal {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+.texto h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.texto p {
+    color: white;
+}
+
+.botonblanco {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 9px 20px;
+    font-weight: bold;
+}
+
+.botonrojo {
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    padding: 9px 20px;
+    font-weight: bold;
+}
+
+@media (max-width:1000px) {
+/* .imagenprincipal {
+margin-right: 10%;
+
+} */
+
+
+
+    .imagenprincipal img {
+        height: 50vh;
+    }
+    .texto h3 {
+        font-size: 110%;
+        margin-right: 25%;
+    }
+    .texto p {
+        font-size: 100%;
+        margin-right: 25%;
+    }
+    .botonblanco {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 25%;
+    }
+
+    .botonrojo {
+        margin-right: 45%;
+    }
+
+}
+
+
+@media (max-width:700px) {
+    /* .imagenprincipal {
+    margin-right: 10%;
+    
+    } */
+    
+    
+    
+        .imagenprincipal img {
+            height: 50vh;
+        }
+        .texto h3 {
+            font-size: 110%;
+            margin-right: 25%;
+        }
+        .texto p {
+            font-size: 100%;
+            margin-right: 25%;
+        }
+        .botonblanco {
+            display: inline-block;
+            margin-bottom: 20px;
+            margin-right: 25%;
+        }
+    
+        .botonrojo {
+            margin-right: 45%;
+        }
+    
+    }
