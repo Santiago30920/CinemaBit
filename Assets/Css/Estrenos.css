@@ -1,6 +1,7 @@
 /* Sección imagenes */
 .contenedor {
     background-color: black;
+    height: 500px;
 }
 
 .imagenes-container{
