@@ -1,6 +1,4 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
     }
 
@@ -57,18 +55,18 @@
     display: flex;
 }
 
-.row img{
+footer .row img{
     width: 36px;
     height: 36px;
 }
 
-.row label{
+footer .row label{
     margin-top: 10px;
     margin-left: 20px;
     color: #C7C7C7;
     font-size: 18px;
  }
- .row a {
+footer .row a {
     margin-top: 10px;
     margin-left: 20px;
     color: #C7C7C7;
