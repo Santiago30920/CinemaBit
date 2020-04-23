@@ -1,22 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+
+    background-color: black;
+}
 .imagenprincipal img {
-    width: 105%
+    width: 100%;
+    border-color: yellow;
 }
 
 .imagenprincipal {
+    width: 100%;
     position: relative;
     display: inline-block;
     text-align: center;
+    border-color: yellow;
 }
 
 .texto {
     position: absolute;
-    top: 5%;
+    top: 45%;
     left: 50%;
 }
 
 .texto h3 {
     font-weight: bold;
     color: white;
+    font-size: 30px;
 }
 
 .texto p {
@@ -38,22 +49,63 @@
     padding: 9px 20px;
     font-weight: bold;
 }
+.botonblanco:hover{
+    text-decoration: none;
+    color: black;
+}
+.botonrojo:hover{
+    text-decoration: none;
+    color: white;
+}
+h4 {
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+    color: white;
+}
 
-@media (max-width:1000px) {
-/* .imagenprincipal {
+
+.card {
+    background-color:  rgb(116, 116, 116);
+    color: white;
+    /* height: 50%; */
+    border-color: white;
+}
+
+
+.card-deck{
+
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.text-muted {
+
+    color: white;
+}
+
+.card-text {
+
+    color: white;
+}
+
+/* @media (max-width:701px) {
+.imagenprincipal {
 margin-right: 10%;
 
-} */
-
-
-
+}
+    .texto {
+        top: 10%;
+        left: 35%;
+    }
     .imagenprincipal img {
         height: 50vh;
     }
     .texto h3 {
         font-size: 110%;
         margin-right: 25%;
-    }
+    } 
     .texto p {
         font-size: 100%;
         margin-right: 25%;
@@ -68,36 +120,48 @@ margin-right: 10%;
         margin-right: 45%;
     }
 
-}
+} */
 
 
-@media (max-width:700px) {
+@media (max-width:1000px) {
     /* .imagenprincipal {
     margin-right: 10%;
     
     } */
-    
-    
-    
-        .imagenprincipal img {
-            height: 50vh;
+  .imagenprincipal img {
+        width: 100%;
+        height: 350px;
+        }
+        .texto {
+            top: 10%;
+            left: 45%;
         }
         .texto h3 {
-            font-size: 110%;
+            font-size: 20px;
             margin-right: 25%;
         }
         .texto p {
             font-size: 100%;
             margin-right: 25%;
         }
-        .botonblanco {
+        .texto a{
+            margin-left: -15px;
             display: inline-block;
-            margin-bottom: 20px;
-            margin-right: 25%;
+        }
+        .botonblanco {
+            width: 97%;
         }
     
         .botonrojo {
-            margin-right: 45%;
+            margin-top: 15px;
+            margin-left: 5px;
+            width: 97%;   
+        }
+        h4{
+            font-size: 26px;
         }
     
     }
+
+
+    

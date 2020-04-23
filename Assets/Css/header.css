@@ -1,6 +1,9 @@
 nav{
    background-color: rgb(116, 116, 116);
    text-align: center;
+   position: fixed;
+   bottom: 0;
+   right: 0;
 }
 nav img{
     height: 55px;
@@ -13,6 +16,7 @@ nav div img{
 }
 nav div{
     margin-left: 65%;
+    
 }
 nav a{
     color: white;
