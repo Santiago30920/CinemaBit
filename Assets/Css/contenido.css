@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'cine';
+    src: url(../fuentes/trajan-pro-3-2.otf);
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(../fuentes/Oswald-Regular.ttf);
+}
+
+.imagenes-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 120px;
+    border-radius: 10px;
+    font-family: 'oswald'
+    }
+
+
+.imagenes-container img {
+          -moz-transition: all 0.8s ease-out;
+          -webkit-transition: all 0.8s ease-out;
+          transition: all 0.8s ease-out;
+        width: 100%;
+        height: 400px;
+        cursor: pointer;
+        margin-top: 40px;
+}
+
+
+.imagenes-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+.imagenes-details{
+    position: absolute;
+    bottom: 25px;
+    left: 28px;
+    z-index: 100;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.cineb{
+    
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin:140px auto;
+    background-color: rgb(29, 28, 28);
+    font-family: 'oswald';
+}
+
+.parrafo {
+    
+     color: white;
+    font-family: 'oswald';
+    letter-spacing: 1px;
+      width: 100%;
+   margin: 10px 25px;
+   font-size: 40px;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+.locacion-mapa{
+    border: 2px solid white;
+       width: 80%;
+       margin: 0 40px;
+       background-color: black;
+    }
+
+.parrafo p {
+    
+    margin-top: 80px;
+    font-size: 22px;
+}
+
+#titulo {
+    margin-top: 20px;
+       color: red;
+       text-decoration: underline;
+       font-size: 40px;
+       }
+.btn-img{
+    position: absolute;
+    bottom: 25px;
+    right: 28px;
+    z-index: 100;
+}
+
+
+.section-locacion h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+   
+}
+
+.mapa{
+    width: 98%;
+    height: 350px;
+    border: 2px solid white;
+    margin: 0 auto;
+    }
+
+iframe{
+    width: 100%;
+   height: 340px;
+    object-fit: cover;
+         border-radius: 5px;
+}
+
+strong {
+    color: white;
+    font-size: 13px;
+       text-align: start;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .cineb{
+        height: 570px;
+        }
+    .parrafo {
+      width: 100%;
+      margin-bottom: 90px;
+   }
+   
+.parrafo p {
+    font-size: 20px;
+    margin-top: 80px;
+    
+}
+.locacion-mapa{
+   
+    width: 90%;
+    margin: 20px 40px;
+    background-color: black;
+ }
+      
+}
+
+@media screen and (max-width: 1000px) {
+    .cineb{
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+    .parrafo {
+      width: 90%;
+      
+      margin-bottom: 90px;
+      margin-left: 40px;
+   }
+
+   .parrafo p {
+    font-size: 22px;
+   }
+   
+   .locacion-mapa{
+   
+    width: 90%;
+    margin: 20px 40px;
+    background-color: black;
+ }
+ strong {
+    margin-top: 10px;
+}
+    
+}
+
+@media screen and (max-width: 750px) {
+    .cineb{
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+    .parrafo {
+      width: 90%;
+      font-size: 16px;
+      margin-bottom: 90px;
+   }
+   .locacion-mapa{
+   
+    width: 90%;
+    
+    margin: 0 40px;
+    background-color: black;
+ }
+ strong {
+    margin-top: 10px;
+}
+    
+}
+
+@media screen and (max-width: 540px) {
+    .cineb{
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+    .parrafo {
+      width: 90%;
+      font-size: 16px;
+      margin-bottom: 90px;
+   }
+   .locacion-mapa{
+   
+       width: 90%;
+       margin: 0 40px;
+       background-color: black;
+    }
+    
+}
+
+@media (max-width:499px) and (min-width:250px) {
+    .imagenes-details{
+       width: 50%;
+    }
+}
+
+@media (max-width:700px) and (min-width:500px) {
+    .imagenes-details{
+       width: 50%;
+}
+}
