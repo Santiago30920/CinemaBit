@@ -56,6 +56,10 @@ aside a {
     font-size: 18px;
     text-decoration: none;
 }
+aside a:hover{
+    color: white;
+    text-decoration: none;
+}
 #modal {
     color: #fff;
     position: fixed;
