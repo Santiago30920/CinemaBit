@@ -28,7 +28,7 @@
 .seccion1:before {
     content: "";
     width: 100%;
-    height: 930px;
+    height: 920px;
     position: absolute;
     top: 0;
     left: 0;
@@ -135,12 +135,17 @@
         width: 98%;
     }
     .slider img {
-        width: 1000px;
+        width: 900px;
         height: 430px;
     }
     .slider ul {
         width: 7000px;
     }
+
+    .seccion1:before {
+        height: 877px;
+         
+       }
     @keyframes slider {
         0% {
             margin-left: 0px;
@@ -197,12 +202,17 @@
         width: 98%;
     }
     .slider img {
-        width: 750px;
+        width: 1000px;
         height: 430px;
     }
     .slider ul {
         width: 750px;
     }
+
+    .seccion1:before {
+        height: 877px;
+         
+       }
     @keyframes slider {
         0% {
             margin-left: 0px;
@@ -312,7 +322,7 @@
         }
     }
     .seccion1:before {
-     height: 878px;
+     height: 877px;
       
     }
 }
