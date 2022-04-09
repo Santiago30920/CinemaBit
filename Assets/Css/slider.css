@@ -15,8 +15,9 @@
 }
 
 .seccion1 {
+    position: relative;
     height: 805px;
-    background-image: url(../Image/batman.jpg);
+    background-image: url(../Image/15-mejores-peliculas-clasicas-todo-hollywood.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,13 +29,23 @@
 .seccion1:before {
     content: "";
     width: 100%;
-    height: 920px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background-image: linear-gradient(black, grey);
-    opacity: 0.3;
+    opacity: 0.7;
     z-index: 1;
+}
+.seccion1::after{
+    content: "";
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(transparent,black);
+    z-index: 5;
 }
 
 .titulo {
@@ -82,6 +93,7 @@
     font-size: 40px;
     text-shadow: 3px 3px 3px black;
     color: white;
+    z-index: 4;
 }
 
 @keyframes slider {
@@ -142,10 +154,6 @@
         width: 7000px;
     }
 
-    .seccion1:before {
-        height: 877px;
-         
-       }
     @keyframes slider {
         0% {
             margin-left: 0px;
@@ -190,10 +198,7 @@
             margin-left: -6000px;
         }
     }
-    .seccion1:before {
-     height: 878px;
-      
-    }
+    
     
 }
 
@@ -208,11 +213,6 @@
     .slider ul {
         width: 750px;
     }
-
-    .seccion1:before {
-        height: 877px;
-         
-       }
     @keyframes slider {
         0% {
             margin-left: 0px;
@@ -320,9 +320,5 @@
         100% {
             margin-left: -3420px;
         }
-    }
-    .seccion1:before {
-     height: 877px;
-      
     }
 }

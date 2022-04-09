@@ -10,12 +10,12 @@ viewBox="0 0 21590 27940"
     .fil0 {fill:black}
     .fil5 {fill:lime}
     .fil5:hover{fill:#79FC79}
-    .fil1 {fill:aqua}
+    .fil1 {fill:white}
     .fil6 {fill:#666666}
     .fil6:hover{fill:#FFFFFF}
     .fil4 {fill:red}
     .fil4:hover{fill:#FF7F7F}
-    .fil2 {fill:blue;fill-rule:nonzero}
+    .fil2 {fill:black;fill-rule:nonzero}
     .fil3 {fill:#4D4D4D;fill-rule:nonzero}
    ]]>
   </style>
